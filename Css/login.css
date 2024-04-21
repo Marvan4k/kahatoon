@@ -1,0 +1,239 @@
+.login-ent {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 20;
+  padding-top: 50px;
+}
+.login-ent-window {
+  position: relative;
+  z-index: 5;
+  background: #ffd3d3;
+  border-radius: 10px;
+  width: 400px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 39px;
+}
+.login-ent-window h1 {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+  color: #000;
+  margin-bottom: 30px;
+}
+.login-ent-window p {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #000;
+  text-align: center;
+}
+.login-ent-window input {
+  border-radius: 10px;
+  width: 300px;
+  height: 45px;
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+  border: none;
+  margin-bottom: 40px;
+}
+.login-ent-window button {
+  margin-top: 9px;
+  width: 300px;
+  padding: 12px 0;
+  background: #e04646;
+  border-radius: 10px;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+  display: block;
+  cursor: pointer;
+}
+.login-ent-window .reg {
+  height: 45px;
+  padding: 9px 0;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  background: #ff8484;
+}
+.login-ent-back {
+  z-index: 4;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.7;
+}
+
+.hider {
+  display: none;
+}
+
+.form-reg {
+  padding-top: 50px;
+  background: none;
+}
+.form-reg-conta {
+  position: relative;
+  z-index: 21;
+  margin-top: 149px;
+  padding-right: 16px;
+  background: #ffd3d3;
+  width: 1080px;
+  margin: 0 auto;
+  padding-left: 43px;
+  border-radius: 20px;
+  overflow-y: auto;
+  height: 90%;
+}
+.form-reg p {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #000;
+}
+.form-reg h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 64px;
+  color: #000;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+.form-reg .top {
+  display: flex;
+  justify-content: space-between;
+}
+.form-reg .top input {
+  width: 500px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+.form-reg .top #bot {
+  margin-top: 20px;
+}
+.form-reg .baner {
+  margin-top: 20px;
+}
+.form-reg .baner input {
+  margin-top: 5px;
+  background: #fff;
+}
+.form-reg .participants {
+  margin-top: 20px;
+}
+.form-reg .participants h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  color: #000;
+}
+.form-reg .participants .user {
+  margin-bottom: 30px;
+}
+.form-reg .participants .user h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #000;
+}
+.form-reg .participants .user .info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+.form-reg .participants .user .info-left input {
+  border-radius: 10px;
+  width: 300px;
+  height: 40px;
+  margin-top: 5px;
+  padding-left: 10px;
+  border: none;
+}
+.form-reg .participants .user .info-left p {
+  margin-top: 20px;
+}
+.form-reg .participants .user .info-left p:first-child {
+  margin-top: 0;
+}
+.form-reg .participants .user .info-right .form__field {
+  border-radius: 10px;
+  margin-top: 5px;
+  padding-left: 10px;
+  border: none;
+  width: 650px;
+  height: 158px;
+  margin-bottom: 31px;
+}
+.form-reg .participants .user .info-right .file {
+  background: #fff;
+}
+.form-reg .participants .user:last-child {
+  margin-bottom: 0;
+}
+.form-reg .participants button {
+  cursor: pointer;
+  padding: 19px 25px;
+  border-radius: 20px;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #000;
+  background: #ff8484;
+}
+
+.form-reg {
+  z-index: 20;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+.form-reg .register-btn {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  border-radius: 20px;
+  width: 100%;
+  padding: 16px 0 16px 0;
+  background: #e04646;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  color: #fff;
+}
+.form-reg-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 19;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  background: #000;
+  opacity: 0.7;
+}
+
+.register-btn:disabled, .register-btn:hover:disabled {
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: not-allowed;
+}/*# sourceMappingURL=login.css.map */

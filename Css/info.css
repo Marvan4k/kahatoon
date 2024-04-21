@@ -1,0 +1,239 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+}
+
+h3 {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 1139px;
+  margin: 0 auto;
+}
+
+header {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  background: #ffd3d3;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35, 75px;
+}
+header .title {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  color: #000;
+  text-decoration: none;
+  margin-top: 10px;
+}
+header .register .login {
+  margin-right: 18.31px;
+  padding: 11px 54.94px;
+  border-radius: 20px;
+  background: #fff;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  color: #000;
+  cursor: pointer;
+}
+header .register .singUp-button {
+  padding: 11px 41.8px;
+  border-radius: 20px;
+  background: #000;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+main {
+  padding-top: 34px;
+}
+main .baner img {
+  width: 100%;
+}
+main .nameofcomand {
+  padding-bottom: 50px;
+  margin-top: 44px;
+  background: #ffd3d3;
+}
+main .nameofcomand-head {
+  padding: 30px 0 41px 50px;
+  background: #ffbcbc;
+}
+main .nameofcomand-head h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #000;
+}
+main .nameofcomand-head .tabs {
+  margin-top: 35px;
+}
+main .nameofcomand-head .tabs-list {
+  background: #ff8484;
+  border-radius: 20px;
+  height: 60px;
+  display: flex;
+  width: 915px;
+  justify-content: space-around;
+}
+main .nameofcomand-head .tabs-list li {
+  cursor: pointer;
+  z-index: 2;
+  position: relative;
+  list-style: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #000;
+  padding-top: 20px;
+}
+main .nameofcomand-head .tabs-list-block {
+  top: 0;
+  left: -24px;
+  position: absolute;
+  border-radius: 20px;
+  background: #e04646;
+  width: 150px;
+  height: 59px;
+  z-index: -1;
+}
+main .nameofcomand-bot {
+  padding-bottom: 50px;
+  padding-right: 25px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+main .nameofcomand-bot img {
+  margin-left: 50px;
+}
+main .nameofcomand-bot .about h1 {
+  padding: 13px 0 13px 22px;
+  background: #fff;
+  width: 778px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #000;
+}
+main .nameofcomand-bot .about p {
+  margin-top: 16.36px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #000;
+  background: #fff;
+  width: 778px;
+  padding: 21px 0 0 22px;
+  height: 230px;
+}
+main .nameofcomand .qvest-cont {
+  padding-right: 24px;
+  display: flex;
+  justify-content: end;
+}
+main .nameofcomand .qvest-cont .qvestion {
+  padding: 18px 37px;
+  border-radius: 20px;
+  background: #ff8484;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #000;
+  text-decoration: none;
+}
+main .list-of-question {
+  margin-top: 102px;
+  background: #ffd3d3;
+  padding: 16px 25px 10px 25px;
+  border-radius: 20px 20px 0 0;
+  height: 750px;
+}
+main .list-of-question-point {
+  height: 129px;
+  background: #ff8484;
+  border-radius: 20px;
+  padding-top: 19px;
+  padding-left: 15px;
+}
+main .list-of-question-point h1 {
+  margin-bottom: 10px;
+}
+main .list-of-question-point .text-container {
+  overflow-y: auto;
+  height: 60px;
+}
+main .list-of-question-point .text-container p {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.hid div {
+  display: none;
+}
+
+footer {
+  padding-top: 22px;
+  padding-bottom: 22px;
+  background: #ff8484;
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+footer .avt h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #fff;
+}
+footer .avt p {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+}
+footer .footer-right {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #fff;
+}
+footer .footer-right span {
+  display: block;
+}/*# sourceMappingURL=info.css.map */

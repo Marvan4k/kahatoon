@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+}
+
+h3 {
+  padding: 0;
+  margin: 0;
+}
+
+form {
+  margin-top: 149px;
+  overflow-y: auto;
+  padding-right: 16px;
+  background: #ffd3d3;
+  width: 1080px;
+  margin: 0 auto;
+  padding-left: 43px;
+  border-radius: 20px;
+}
+form p {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #000;
+}
+form h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 64px;
+  color: #000;
+  margin-bottom: 20px;
+}
+form .top {
+  display: flex;
+  justify-content: space-between;
+}
+form .top input {
+  width: 500px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+form .top #bot {
+  margin-top: 20px;
+}
+form .baner {
+  margin-top: 20px;
+}
+form .baner input {
+  margin-top: 5px;
+  background: #fff;
+}
+form .participants {
+  margin-top: 20px;
+}
+form .participants h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  color: #000;
+}
+form .participants .user {
+  margin-bottom: 30px;
+}
+form .participants .user h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #000;
+}
+form .participants .user .info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+form .participants .user .info-left input {
+  border-radius: 10px;
+  width: 300px;
+  height: 40px;
+  margin-top: 5px;
+  padding-left: 10px;
+  border: none;
+}
+form .participants .user .info-left p {
+  margin-top: 20px;
+}
+form .participants .user .info-left p:first-child {
+  margin-top: 0;
+}
+form .participants .user .info-right .form__field {
+  border-radius: 10px;
+  margin-top: 5px;
+  padding-left: 10px;
+  border: none;
+  width: 650px;
+  height: 158px;
+  margin-bottom: 31px;
+}
+form .participants .user .info-right .file {
+  background: #fff;
+}
+form .participants .user:last-child {
+  margin-bottom: 0;
+}
+form .participants button {
+  cursor: pointer;
+  padding: 19px 25px;
+  border-radius: 20px;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #000;
+  background: #ff8484;
+}
+form .register-btn {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  border-radius: 20px;
+  width: 100%;
+  padding: 16px 0 16px 0;
+  background: #e04646;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  color: #fff;
+}
+
+.hidden {
+  display: none;
+}/*# sourceMappingURL=formReg.css.map */
